@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 18.16.0
+  - 16
 script:
   - npm run build
   - echo "Commit sha - $TRAVIS_COMMIT"
