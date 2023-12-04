@@ -10,7 +10,7 @@
     "build:webpack": "webpack --mode=production",
     "build:types": "tsc",
     "start:dev": "webpack serve --mode=development --port 9000 --env isLocal",
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
