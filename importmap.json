@@ -1,0 +1,11 @@
+{
+    "imports": {
+      "react": "https://cdn.jsdelivr.net/npm/react@16.13.0/umd/react.production.min.js",
+      "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.0/umd/react-dom.production.min.js",
+      "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.1/lib/system/single-spa.min.js",
+      "@sahil-mfa/root-config": "https://single-spa-demo.s3-us-west-2.amazonaws.com/%40thawkin3/root-config/179ba4f2ce4d517bf461bee986d1026c34967141/root-config.js",
+      "@sahil-mfa/single-spa-demo-nav": "https://sahil-mfa-single-spa-demo-423662230526.s3-accesspoint.ap-south-1.amazonaws.com/%40sahil-mfa/single-spa-demo-nav/1846add8c9ee1fc3cf9228e15df01b8a9c145943/sahil-mfa-single-spa-demo-nav.js",
+      "@sahil-mfa/single-spa-demo-page-1": "https://sahil-mfa-single-spa-demo-423662230526.s3-accesspoint.ap-south-1.amazonaws.com/%40sahil-mfa/single-spa-demo-page-1/ffcf3eebc201ac1aeb8bbebd45e8f6c0c7168087/sahil-mfa-single-spa-demo-page-1.js",
+      "@sahil-mfa/single-spa-demo-page-2": "https://sahil-mfa-single-spa-demo-423662230526.s3-accesspoint.ap-south-1.amazonaws.com/%40sahil-mfa/single-spa-demo-page-2/28ec1eb2344a3b64eb061e0a95f10493d140af05/sahil-mfa-single-spa-demo-page-2.js"
+    }
+  }
