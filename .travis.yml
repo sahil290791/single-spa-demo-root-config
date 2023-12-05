@@ -14,7 +14,6 @@ script:
   - echo "Commit sha - $TRAVIS_COMMIT"
   - mkdir -p dist/@sahil-mfa/single-spa-demo-root-config/$TRAVIS_COMMIT
   - mv dist/*.* dist/@sahil-mfa/single-spa-demo-root-config/$TRAVIS_COMMIT/
-  - cp importmap.json dist/
 deploy:
   provider: s3
   access_key_id: "$AWS_ACCESS_KEY_ID"
