@@ -14,7 +14,7 @@ https
       if (
         res.headers["content-type"] &&
         res.headers["content-type"].toLowerCase().trim() ===
-          "application/json"
+          "text/javascript"
       ) {
         const moduleName = `@sahil-mfa/root-config`;
         importMap.imports[moduleName] = url;
@@ -25,7 +25,7 @@ https
       } else {
         urlNotDownloadable(
           url,
-          Error(`Content-Type response header must be application/json`)
+          Error(`Content-Type response header must be text/javascript`)
         );
       }
     } else {
