@@ -6,7 +6,8 @@ env:
     # include $HOME/.local/bin for `aws`
     - PATH=$HOME/.local/bin:$PATH
 before_install:
-  - pyenv global 3.5
+  - pyenv install -v 3.7.2
+  - pyenv global 3.7.2
   - pip install -U pip
   - pip install awscli
 script:
@@ -29,9 +30,3 @@ deploy:
 after_deploy:
   - chmod +x after_deploy.sh
   - "./after_deploy.sh"
-addons:
-  apt:
-    sources:
-      - deadsnakes # source required so it finds the package definition below
-    packages:
-      - python3.5
